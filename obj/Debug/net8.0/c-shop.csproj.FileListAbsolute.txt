@@ -1,0 +1,14 @@
+/Users/junker/Desktop/homss/c-shop/bin/Debug/net8.0/c-shop
+/Users/junker/Desktop/homss/c-shop/bin/Debug/net8.0/c-shop.deps.json
+/Users/junker/Desktop/homss/c-shop/bin/Debug/net8.0/c-shop.runtimeconfig.json
+/Users/junker/Desktop/homss/c-shop/bin/Debug/net8.0/c-shop.dll
+/Users/junker/Desktop/homss/c-shop/bin/Debug/net8.0/c-shop.pdb
+/Users/junker/Desktop/homss/c-shop/obj/Debug/net8.0/c-shop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/junker/Desktop/homss/c-shop/obj/Debug/net8.0/c-shop.AssemblyInfoInputs.cache
+/Users/junker/Desktop/homss/c-shop/obj/Debug/net8.0/c-shop.AssemblyInfo.cs
+/Users/junker/Desktop/homss/c-shop/obj/Debug/net8.0/c-shop.csproj.CoreCompileInputs.cache
+/Users/junker/Desktop/homss/c-shop/obj/Debug/net8.0/c-shop.dll
+/Users/junker/Desktop/homss/c-shop/obj/Debug/net8.0/refint/c-shop.dll
+/Users/junker/Desktop/homss/c-shop/obj/Debug/net8.0/c-shop.pdb
+/Users/junker/Desktop/homss/c-shop/obj/Debug/net8.0/c-shop.genruntimeconfig.cache
+/Users/junker/Desktop/homss/c-shop/obj/Debug/net8.0/ref/c-shop.dll

@@ -1,0 +1,18 @@
+name: TEST CI/CD
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  api-ci-cd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Grant execute permission for gradlew
+        with:
+          script: |
+            echo "${{ github.head_ref }}"
+            echo "${{ github.base_ref }}"
+            echo "${{ github.ref }}"
+            echo "${{ github.ref_name }}"
+        

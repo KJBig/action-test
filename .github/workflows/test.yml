@@ -19,8 +19,9 @@ jobs:
           fi 
 
           if [ ${{ github.ref_name }} = "develop" ]
+          then
           branchName="Develop"
-          then echo "Hello Develop"
+          echo "Hello Develop"
           fi 
           echo "${branchName}"
           echo ${branchName}

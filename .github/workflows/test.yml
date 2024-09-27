@@ -10,11 +10,18 @@ jobs:
     steps:
       - name: Grant execute permission for gradlew
         run: |
+          branchName = ""
+
           if [ ${{ github.ref_name }} = "main" ]
-          then echo "Hello Main"
+          then 
+          branchName = Main
+          echo "Hello Main"
           fi 
 
           if [ ${{ github.ref_name }} = "develop" ]
+          branchName = Develop
           then echo "Hello Develop"
           fi 
+          echo "${branchName}"
+          echo ${branchName}
         

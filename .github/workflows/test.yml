@@ -10,8 +10,11 @@ jobs:
     steps:
       - name: Grant execute permission for gradlew
         run: |
-          echo "${{ github.head_ref }}"
-          echo "${{ github.base_ref }}"
-          echo "${{ github.ref }}"
-          echo "${{ github.ref_name }}"
+          if [ ${{ github.ref_name }} = "main" ]
+          then echo "Hello Main"
+          fi 
+
+          if [ ${{ github.ref_name }} = "develop" ]
+          then echo "Hello Develop"
+          fi 
         
